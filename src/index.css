@@ -21,6 +21,19 @@
     --radius: 1rem;
   }
 
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --primary: 250 47% 70%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+  }
+
   * {
     @apply border-border;
   }
@@ -33,15 +46,15 @@
 
 @layer components {
   .glass-card {
-    @apply bg-white/60 backdrop-blur-lg border border-white/20 rounded-2xl shadow-lg;
+    @apply bg-white/60 dark:bg-black/40 backdrop-blur-lg border border-white/20 dark:border-white/10 rounded-2xl shadow-lg;
   }
   
   .contact-link {
     @apply flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-primary/10;
   }
 
-  .social-link {
-    @apply flex items-center gap-2 text-foreground/80 hover:text-primary transition-colors duration-300;
+  .expertise-item {
+    @apply flex items-center gap-2 p-3 rounded-lg bg-secondary/50 dark:bg-secondary/20;
   }
 }
 
