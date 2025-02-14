@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Mail, Phone, MapPin, Linkedin, MessageSquare, Sun, Moon, AccessibleIcon, Eye, Calendar } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, MessageSquare, Sun, Moon, AccessibilityIcon, Eye, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { useTheme } from "next-themes";
@@ -55,7 +55,7 @@ const BusinessCard = () => {
         {/* Expertise */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
           <div className="expertise-item">
-            <AccessibleIcon className="w-5 h-5 text-primary flex-shrink-0" />
+            <AccessibilityIcon className="w-5 h-5 text-primary flex-shrink-0" />
             <span className="text-sm">Disability Advocacy</span>
           </div>
           <div className="expertise-item">
