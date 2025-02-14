@@ -1,12 +1,18 @@
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Mail, Phone, MapPin, Linkedin, MessageSquare, Sun, Moon, AccessibilityIcon, Eye, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { useTheme } from "next-themes";
 
 const BusinessCard = () => {
+  const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
+
+  // Wait until component is mounted to access theme
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const handleWhatsApp = () => {
     window.open("https://wa.me/60109636009", "_blank");
@@ -15,6 +21,9 @@ const BusinessCard = () => {
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
+
+  // Don't render theme toggle until mounted to prevent hydration mismatch
+  if (!mounted) return null;
 
   return (
     <div className="min-h-screen w-full flex items-center justify-center p-4 sm:p-8 relative">
