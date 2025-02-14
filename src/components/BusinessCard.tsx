@@ -1,20 +1,25 @@
 
 import React from "react";
-import { Mail, Phone, MapPin, Linkedin, Globe } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Globe, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const BusinessCard = () => {
-  const handleContact = () => {
-    window.location.href = "mailto:me@nasrulnoor.my";
-  };
-
-  const handlePortfolio = () => {
-    window.open("https://bolehspace.com", "_blank");
+  const handleWhatsApp = () => {
+    window.open("https://wa.me/60109636009", "_blank");
   };
 
   return (
     <div className="min-h-screen w-full flex items-center justify-center p-4 sm:p-8">
       <div className="glass-card w-full max-w-2xl p-8 animate-fade-in">
+        {/* Profile Image */}
+        <div className="flex justify-center mb-6">
+          <Avatar className="w-32 h-32 border-4 border-white/50 shadow-lg">
+            <AvatarImage src="/lovable-uploads/3ba47a9d-ada2-4926-b0e7-3fdaf4481b9a.png" alt="Muhammad Nasrul Mohamed Noor" />
+            <AvatarFallback>MN</AvatarFallback>
+          </Avatar>
+        </div>
+
         {/* Header */}
         <div className="text-center mb-8 animate-fade-in">
           <h1 className="text-2xl sm:text-3xl font-bold mb-2 text-balance">
@@ -62,20 +67,14 @@ const BusinessCard = () => {
           </a>
         </div>
 
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        {/* WhatsApp CTA Button */}
+        <div className="flex justify-center">
           <Button
-            onClick={handleContact}
+            onClick={handleWhatsApp}
             className="bg-primary hover:bg-primary/90 text-white"
           >
-            Contact Me
-          </Button>
-          <Button
-            onClick={handlePortfolio}
-            variant="outline"
-            className="border-primary text-primary hover:bg-primary/10"
-          >
-            View Portfolio
+            <MessageSquare className="mr-2" />
+            WhatsApp Me
           </Button>
         </div>
       </div>
