@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from "react";
-import { Mail, Phone, MapPin, Linkedin, MessageSquare, Sun, Moon, GraduationCap, Briefcase, Github } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, MessageSquare, Sun, Moon, GraduationCap, Briefcase, Github, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { useTheme } from "next-themes";
@@ -29,6 +29,15 @@ const BusinessCard = () => {
 
   const handlePhoneClick = () => {
     window.location.href = `tel:${data.contact.phone}`;
+  };
+
+  const handleDownloadContact = () => {
+    const link = document.createElement('a');
+    link.href = '/nasrul.vcf';
+    link.download = 'nasrul.vcf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   // Don't render theme toggle until mounted to prevent hydration mismatch
@@ -135,11 +144,20 @@ const BusinessCard = () => {
           ))}
         </div>
 
-        {/* WhatsApp CTA Button */}
-        <div className="flex justify-center">
+        {/* Action Buttons */}
+        <div className="flex flex-col gap-3 mb-8">
+          <Button
+            onClick={handleDownloadContact}
+            variant="outline"
+            className="w-full"
+            aria-label="Download contact"
+          >
+            <Download className="mr-2 h-4 w-4" />
+            Download Contact
+          </Button>
           <Button
             onClick={handleWhatsApp}
-            className="bg-primary hover:bg-primary/90"
+            className="w-full bg-primary hover:bg-primary/90"
           >
             <MessageSquare className="mr-2" />
             WhatsApp Me
