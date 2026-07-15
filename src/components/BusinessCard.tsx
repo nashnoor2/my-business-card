@@ -66,7 +66,7 @@ const BusinessCard = () => {
           <h1 className="text-2xl sm:text-3xl font-bold mb-2 text-balance">
             {heroData.fullName}
           </h1>
-          <p className="text-primary font-medium text-lg">{heroData.primaryTitle.en}</p>
+          <p className="text-foreground font-medium text-lg">{heroData.primaryTitle.en}</p>
           <p className="text-sm text-foreground/70 mt-1">{heroData.organisation.name} - {heroData.organisation.position.en}</p>
         </div>
 
@@ -127,7 +127,7 @@ const BusinessCard = () => {
               href={profile.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs py-2 px-3 rounded-md bg-primary/10 hover:bg-primary/20 transition-colors text-center"
+              className="text-xs py-2 px-3 rounded-md bg-primary/10 hover:bg-primary/20 transition-colors text-center text-foreground"
               aria-label={`Visit ${profile.name}`}
             >
               {profile.name}
