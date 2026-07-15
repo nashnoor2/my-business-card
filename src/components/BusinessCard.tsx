@@ -139,7 +139,7 @@ const BusinessCard = () => {
         <div className="flex justify-center">
           <Button
             onClick={handleWhatsApp}
-            className="bg-primary hover:bg-primary/90 text-white"
+            className="bg-primary hover:bg-primary/90"
           >
             <MessageSquare className="mr-2" />
             WhatsApp Me
