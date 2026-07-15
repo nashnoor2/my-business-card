@@ -1,0 +1,251 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-15T00:00:00Z",
+
+  "site": {
+    "name": {
+      "en": "Muhammad Nasrul Mohamed Noor",
+      "ms": "Muhammad Nasrul Mohamed Noor"
+    },
+    "preferredName": "Nasrul",
+    "url": "https://link.nasrulnoor.my",
+    "language": "en",
+    "supportedLanguages": [
+      "en",
+      "ms"
+    ],
+    "themeColor": "#005A9C",
+    "accentColor": "#0B6E4F"
+  },
+
+  "seo": {
+    "title": {
+      "en": "Muhammad Nasrul Mohamed Noor | Digital Profile",
+      "ms": "Muhammad Nasrul Mohamed Noor | Profil Digital"
+    },
+    "description": {
+      "en": "Certified Disability Equality Training (DET) Facilitator, Disability Inclusion Advocate, Researcher and Accessibility Consultant.",
+      "ms": "Fasilitator Latihan Kesaksamaan OKU (DET) Bertauliah, Penyokong Keterangkuman OKU, Penyelidik dan Perunding Kebolehcapaian."
+    },
+    "keywords": [
+      "Disability",
+      "Accessibility",
+      "Universal Design",
+      "Inclusive Design",
+      "Malaysia",
+      "DET",
+      "Research",
+      "Accessibility Consultant"
+    ],
+    "author": "Muhammad Nasrul Mohamed Noor",
+    "image": "assets/profile.jpg"
+  },
+
+  "hero": {
+    "photo": "assets/profile.jpg",
+
+    "fullName": "Muhammad Nasrul Mohamed Noor",
+
+    "preferredName": "Nasrul",
+
+    "primaryTitle": {
+      "en": "Certified Disability Equality Training (DET) Facilitator",
+      "ms": "Fasilitator Latihan Kesaksamaan OKU (DET) Bertauliah"
+    },
+
+    "secondaryTitles": {
+      "en": [
+        "Disability Inclusion Advocate",
+        "Researcher",
+        "Accessibility Consultant"
+      ],
+      "ms": [
+        "Penyokong Keterangkuman OKU",
+        "Penyelidik",
+        "Perunding Kebolehcapaian"
+      ]
+    },
+
+    "organisation": {
+      "name": "Boleh Space",
+      "position": {
+        "en": "Chief Technology Officer",
+        "ms": "Ketua Pegawai Teknologi"
+      }
+    },
+
+    "biography": {
+      "en": "Muhammad Nasrul Mohamed Noor is a certified Disability Equality Training (DET) Facilitator, disability inclusion advocate, and researcher dedicated to advancing the rights and inclusion of persons with disabilities. His work focuses on disability equality, accessibility, psychosocial disabilities, inclusive public transport, and universal design. He is committed to promoting evidence-based practices and leveraging technology to create accessible, inclusive, and equitable communities.",
+
+      "ms": "Muhammad Nasrul Mohamed Noor ialah Fasilitator Latihan Kesaksamaan OKU (DET) bertauliah, penyokong keterangkuman OKU dan penyelidik yang komited memperjuangkan hak serta penyertaan orang kurang upaya. Bidang tumpuannya merangkumi kesaksamaan OKU, kebolehcapaian, ketidakupayaan psikososial, pengangkutan awam inklusif dan reka bentuk sejagat."
+    }
+  },
+
+  "expertise": [
+    {
+      "icon": "accessibility",
+      "title": {
+        "en": "Disability Equality",
+        "ms": "Kesaksamaan OKU"
+      }
+    },
+    {
+      "icon": "universal-design",
+      "title": {
+        "en": "Accessibility",
+        "ms": "Kebolehcapaian"
+      }
+    },
+    {
+      "icon": "design",
+      "title": {
+        "en": "Universal Design",
+        "ms": "Reka Bentuk Sejagat"
+      }
+    },
+    {
+      "icon": "mental-health",
+      "title": {
+        "en": "Psychosocial Disabilities",
+        "ms": "Ketidakupayaan Psikososial"
+      }
+    },
+    {
+      "icon": "transport",
+      "title": {
+        "en": "Inclusive Public Transport",
+        "ms": "Pengangkutan Awam Inklusif"
+      }
+    },
+    {
+      "icon": "people",
+      "title": {
+        "en": "Human-Centred Design",
+        "ms": "Reka Bentuk Berpusatkan Manusia"
+      }
+    },
+    {
+      "icon": "assistive-tech",
+      "title": {
+        "en": "Assistive Technology",
+        "ms": "Teknologi Bantuan"
+      }
+    },
+    {
+      "icon": "opensource",
+      "title": {
+        "en": "Open Source Technology",
+        "ms": "Teknologi Sumber Terbuka"
+      }
+    },
+    {
+      "icon": "research",
+      "title": {
+        "en": "Research",
+        "ms": "Penyelidikan"
+      }
+    },
+    {
+      "icon": "training",
+      "title": {
+        "en": "Training",
+        "ms": "Latihan"
+      }
+    }
+  ],
+
+  "memberships": [
+    {
+      "name": "Independent Living Centre Kuala Lumpur (ILCKL)",
+      "role": {
+        "en": "Professional Member",
+        "ms": "Ahli Profesional"
+      },
+      "website": null
+    },
+    {
+      "name": "Boleh Space",
+      "role": {
+        "en": "Chief Technology Officer",
+        "ms": "Ketua Pegawai Teknologi"
+      },
+      "website": "https://boleh.space"
+    }
+  ],
+
+  "profiles": [
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/muhammad-nasrul-mohamed-noor/",
+      "description": {
+        "en": "Professional Profile",
+        "ms": "Profil Profesional"
+      }
+    },
+    {
+      "id": "orcid",
+      "name": "ORCID",
+      "url": "https://orcid.org/0009-0001-7420-3834",
+      "description": {
+        "en": "Research Identifier",
+        "ms": "Pengenal Penyelidik"
+      }
+    },
+    {
+      "id": "scholar",
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com.my/citations?hl=id&user=0ojW6BsAAAAJ",
+      "description": {
+        "en": "Publications & Citations",
+        "ms": "Penerbitan & Sitasi"
+      }
+    }
+  ],
+
+  "contact": {
+    "email": "me@work.nasrulnoor.my",
+    "phone": "+60109636009",
+    "website": "https://link.nasrulnoor.my",
+    "location": {
+      "en": "Kuala Lumpur, Malaysia",
+      "ms": "Kuala Lumpur, Malaysia"
+    }
+  },
+
+  "actions": {
+    "saveContact": true,
+    "downloadQr": true,
+    "copyWebsite": true,
+    "copyEmail": true,
+    "copyPhone": true,
+    "share": false,
+    "print": true
+  },
+
+  "accessibility": {
+    "languages": [
+      "en",
+      "ms"
+    ],
+    "theme": [
+      "system",
+      "light",
+      "dark"
+    ],
+    "highContrast": true,
+    "reduceMotion": true,
+    "textScaling": true
+  },
+
+  "footer": {
+    "copyright": {
+      "en": "© 2026 Muhammad Nasrul Mohamed Noor",
+      "ms": "© 2026 Muhammad Nasrul Mohamed Noor"
+    },
+    "tagline": {
+      "en": "Designed with accessibility first.",
+      "ms": "Direka dengan kebolehcapaian sebagai keutamaan."
+    }
+  }
+}
